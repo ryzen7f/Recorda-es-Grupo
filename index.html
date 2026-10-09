@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b16"><meta name="description" content="Momentos do grupo Futuro com a IA.">
+  <title>Futuro com a IA — Nossas memórias</title>
+  <link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body id="topo">
+  <div class="glow glow-blue" aria-hidden="true"></div><div class="glow glow-red" aria-hidden="true"></div>
+  <header class="site-header" id="topo">
+    <a class="brand" href="#inicio" aria-label="Futuro com a IA — início">
+      <span class="brand-logo"><img src="imagens/logo-ia.png" alt="Logo de IA"></span>
+      <span class="brand-copy">
+        <strong>FUTURO <span>COM A IA</span></strong>
+        <small>IDEIAS QUE NOS CONECTAM</small>
+      </span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="menu-principal" aria-label="Navegação principal">
+      <a href="#inicio" class="nav-link is-current">Início</a>
+      <a href="#galeria" class="nav-link">Nossos momentos</a>
+      <a href="#mensagem-equipe" class="nav-link nav-cta">Mensagem para a equipe <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy reveal">
+        <span class="eyebrow"><i></i> UMA EXPERIÊNCIA QUE FICA NA MEMÓRIA</span>
+        <h1>Grandes ideias.<br><span>Pessoas reais.</span><br>Memórias para guardar.</h1>
+        <p>Um cantinho especial para relembrar os momentos que compartilhamos com o Futuro com a IA.</p>
+        <a class="primary-button" href="#galeria">Ver nossas fotos <span>↓</span></a>
+        <div class="hero-meta"><span></span> FUTURO COM A IA <b>·</b> 2026</div>
+      </div>
+      <div class="hero-art reveal" aria-label="Logo do Futuro com a IA"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="logo-card"><img src="imagens/logo-ia.png" alt="Logo do projeto Futuro com a IA"></div><span class="float-label blue-label">CRIATIVIDADE</span><span class="float-label red-label">NOSSA EQUIPE</span></div>
+    </section>
+    <section class="gallery" id="galeria">
+      <div class="gallery-heading reveal"><div><span class="eyebrow"><i class="red-dot"></i> NOSSA GALERIA</span><h2>Momentos que<br><span>merecem ficar.</span></h2></div><p>Quatro registros da nossa história. Use as setas ou deixe o carrossel passar automaticamente.</p></div>
+      <div class="carousel reveal" aria-label="Carrossel com quatro fotos do grupo">
+        <div class="carousel-top"><span><i class="live-dot"></i> MEMÓRIAS DA EQUIPE</span><div class="controls"><button id="prev" type="button" aria-label="Foto anterior">←</button><button id="next" type="button" aria-label="Próxima foto">→</button></div></div>
+        <div class="viewport" id="viewport" tabindex="0" aria-label="Fotos; use as setas do teclado para navegar">
+          <div class="track" id="track">
+            <figure class="slide"><img src="imagens/grupo-futuro-ia.jpg" alt="Integrantes do grupo Futuro com a IA reunidos" loading="eager"><figcaption><span>01 / 04</span><strong>Nossa equipe</strong></figcaption></figure>
+            <figure class="slide"><img src="imagens/Foto 2.jpeg" alt="Adicionar segunda foto do grupo" loading="lazy"><figcaption><span>02 / 04</span><strong>Um momento especial</strong></figcaption></figure>
+            <figure class="slide"><img src="imagens/Foto 3.jpeg" alt="Adicionar terceira foto do grupo" loading="lazy"><figcaption><span>03 / 04</span><strong>Memórias compartilhadas</strong></figcaption></figure>
+            <figure class="slide"><img src="imagens/Foto 4.jpeg" alt="Adicionar quarta foto do grupo" loading="lazy"><figcaption><span>04 / 04</span><strong>Uma história em equipe</strong></figcaption></figure>
+          </div>
+        </div>
+        <div class="carousel-bottom"><div class="dots" id="dots" aria-label="Selecionar foto"></div><span id="counter">01 / 04</span></div>
+      </div>
+      <p class="tip"><code></code><code></code>.</p>
+    </section>
+    <section class="team-message reveal" id="mensagem-equipe" aria-labelledby="team-message-title">
+      <div class="message-card">
+        <span class="message-kicker"><i></i> UMA MENSAGEM PARA A EQUIPE</span>
+        <img src="imagens/logo-ia.png" alt="Logo IA" class="message-logo">
+        <h2 id="team-message-title">Mais do que um projeto, o Futuro com a IA foi feito de ideias compartilhadas, colaboração, desafios e momentos que vamos levar conosco. Obrigado a cada pessoa que fez parte dessa experiência e ajudou a transformar nosso trabalho em uma lembrança especial. Que essa seja apenas uma das muitas conquistas que ainda vamos celebrar juntos.</h2>
+        <p>Nada disso seria igual sem vocês.</p>
+      </div>
+    </section>
+    <section class="closing reveal" aria-label="Futuro com a IA"><img src="imagens/logo-ia.png" alt="Logo IA"><h2>Futuro com a IA</h2><p>Uma história construída em equipe</p></section>
+  </main>
+  <footer class="footer"><span>FEITO PARA NOSSA EQUIPE</span><span>COM CARINHO <b>♥</b></span></footer>
+</body>
+</html>
